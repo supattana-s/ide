@@ -1,0 +1,12 @@
+version: '3.9'
+
+name: coding
+services:
+    ubuntu-ide:
+        container_name: ide
+        build: .
+        tty: true
+        volumes:
+          - type: bind
+            source: ./Documents
+            target: /home/minipondubu/Documents
