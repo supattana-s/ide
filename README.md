@@ -21,7 +21,9 @@ python packages installed:
 
 
 **You should coding inside ~/Documents
-    - because ~/Documents mount with ./Documents (in host folder)
+    because ~/Documents mount with ./Documents (in host folder)
+
+    mkdir ./Documents
 
 
 ###### (Recommended) using Docker compose to start docker containers #####
@@ -39,7 +41,7 @@ python packages installed:
 
 ## we can delete all image built cache by ##
 
-docker builder prune -a
+    docker builder prune -a
 
 ---------------------------------------------------------------------
 
