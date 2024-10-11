@@ -119,3 +119,11 @@ RUN pip3 install pandas
 
 #-----------------------------------------------------------------#
 
+
+####------ install Deno ------#####
+
+##RUN curl -fsSL https://deno.land/install.sh | sh
+COPY --from=denoland/deno:bin-2.0.0 /deno /usr/local/bin/deno
+
+#-----------------------------------------------------------------#
+

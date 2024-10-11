@@ -4,6 +4,7 @@ language installed
     - python3
     - go
     - lua
+    - js, ts --> Deno also installed
 
 Tools installed:
     - Neovim
