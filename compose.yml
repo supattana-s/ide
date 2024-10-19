@@ -8,3 +8,6 @@ services:
           - type: bind
             source: ./Documents
             target: /home/minipondubu/Documents
+        ports:
+          # host port : docker local port 
+          - 3000:3000
