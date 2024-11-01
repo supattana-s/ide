@@ -1,6 +1,6 @@
 name: coding
 services:
-    ubuntu-ide:
+    alpine-ide:
         container_name: ide
         build: .
         tty: true

@@ -1,15 +1,18 @@
 IDE made for personal coding
 
+Base Image: node:22-alpine3.20
+
 language installed
     - python3
     - go
     - lua
-    - js, ts --> Deno also installed
+    - js, ts
 
 Tools installed:
     - Neovim
     - Tmux
-    - npm, nvm, node
+    - npm, node
+    - deno
     - gcc
     - wget
     - curl
